@@ -63,7 +63,28 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/usr/local/share/cmake-3.21/Modules/CMakeParseArguments.cmake"
+		"/usr/local/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVModules.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindX11.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindFreetype.cmake",
+		"/usr/local/share/cmake-3.21/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindFontconfig.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPkgConfig.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CheckFunctionExists.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/ethan/Repos/Snippingtool/Snippingtool",
 	"DEP_FILE" : "",
@@ -83,9 +104,9 @@
 			null
 		],
 		[
-			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlib.h",
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.h",
 			"MU",
-			"H3HLOAEUEJ/moc_xlib.cpp",
+			"H3HLOAEUEJ/moc_xlibrary.cpp",
 			null
 		],
 		[
@@ -390,12 +411,6 @@
 			"MU",
 			"CQIHBDT2KK/moc_keysymdef.cpp",
 			null
-		],
-		[
-			"/usr/local/include/opencv4/opencv2/cvconfig.h",
-			"MU",
-			"BB3HEOMNPH/moc_cvconfig.cpp",
-			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -418,6 +433,7 @@
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/local/include/opencv4",
 		"/usr/include/c++/9",
 		"/usr/include/x86_64-linux-gnu/c++/9",
 		"/usr/include/c++/9/backward",
@@ -461,7 +477,7 @@
 			null
 		],
 		[
-			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlib.cpp",
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.cpp",
 			"MU",
 			null
 		],

@@ -224,3 +224,87 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3c3a5/fast && /usr/bin/make  -f CMakeFiles/cmTC_3c3a5.dir/build.make CMakeFiles/cmTC_3c3a5.dir/build
+make[1]: Entering directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c3a5.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_3c3a5.dir/CheckFunctionExists.cxx.o -c /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_3c3a5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c3a5.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_3c3a5.dir/CheckFunctionExists.cxx.o -o cmTC_3c3a5  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_df25b/fast && /usr/bin/make  -f CMakeFiles/cmTC_df25b.dir/build.make CMakeFiles/cmTC_df25b.dir/build
+make[1]: Entering directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df25b.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_df25b.dir/CheckFunctionExists.cxx.o -c /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_df25b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df25b.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_df25b.dir/CheckFunctionExists.cxx.o -o cmTC_df25b 
+make[1]: Leaving directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d548f/fast && /usr/bin/make  -f CMakeFiles/cmTC_d548f.dir/build.make CMakeFiles/cmTC_d548f.dir/build
+make[1]: Entering directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d548f.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_d548f.dir/CheckFunctionExists.cxx.o -c /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_d548f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d548f.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_d548f.dir/CheckFunctionExists.cxx.o -o cmTC_d548f 
+make[1]: Leaving directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d419/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d419.dir/build.make CMakeFiles/cmTC_6d419.dir/build
+make[1]: Entering directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d419.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_6d419.dir/CheckFunctionExists.cxx.o -c /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_6d419
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d419.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_6d419.dir/CheckFunctionExists.cxx.o -o cmTC_6d419 
+make[1]: Leaving directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_132ce/fast && /usr/bin/make  -f CMakeFiles/cmTC_132ce.dir/build.make CMakeFiles/cmTC_132ce.dir/build
+make[1]: Entering directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_132ce.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_132ce.dir/CheckFunctionExists.cxx.o -c /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_132ce
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_132ce.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_132ce.dir/CheckFunctionExists.cxx.o -o cmTC_132ce 
+make[1]: Leaving directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19027/fast && /usr/bin/make  -f CMakeFiles/cmTC_19027.dir/build.make CMakeFiles/cmTC_19027.dir/build
+make[1]: Entering directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19027.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_19027.dir/CheckFunctionExists.cxx.o -c /home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_19027
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19027.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_19027.dir/CheckFunctionExists.cxx.o -o cmTC_19027  -lICE 
+make[1]: Leaving directory '/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles/CMakeTmp'
+
+
+
