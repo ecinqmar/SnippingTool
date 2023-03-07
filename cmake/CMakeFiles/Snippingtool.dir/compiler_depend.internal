@@ -415,6 +415,10 @@ CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o
  /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/opencvfiles.hpp
  /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.h
 
+CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o
+ /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp
+ /usr/include/stdc-predef.h
+
 CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o
  /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/wayland.cpp
  /usr/include/stdc-predef.h
@@ -1188,6 +1192,11 @@ CMakeFiles/Snippingtool.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
  /usr/include/c++/9/variant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
 
 CMakeFiles/Snippingtool.dir/mainwindow.cpp.o
  /home/ethan/Repos/Snippingtool/Snippingtool/mainwindow.cpp
@@ -1548,4 +1557,11 @@ CMakeFiles/Snippingtool.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
  /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/opencvfiles.hpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
 

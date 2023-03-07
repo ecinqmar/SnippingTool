@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "Snippingtool_autogen"
   "CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o"
   "CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o.d"
+  "CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o"
+  "CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o.d"
   "CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o"
   "CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o.d"
   "CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o"

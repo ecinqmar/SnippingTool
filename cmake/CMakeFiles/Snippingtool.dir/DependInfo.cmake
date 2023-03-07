@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/opencvfiles.cpp" "CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o" "gcc" "CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o.d"
+  "/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp" "CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o" "gcc" "CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o.d"
   "/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/wayland.cpp" "CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o" "gcc" "CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o.d"
   "/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.cpp" "CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o" "gcc" "CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o.d"
   "/home/ethan/Repos/Snippingtool/Snippingtool/cmake/Snippingtool_autogen/mocs_compilation.cpp" "CMakeFiles/Snippingtool.dir/Snippingtool_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Snippingtool.dir/Snippingtool_autogen/mocs_compilation.cpp.o.d"

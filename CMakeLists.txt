@@ -8,23 +8,30 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# QtCreator supports the following variables for Android, which are identical to qmake Android variables.
-# Check http://doc.qt.io/qt-5/deployment-android.html for more information.
-# They need to be set before the find_package(Qt5 ...) call.
 
-#if(ANDROID)
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
-#    if (ANDROID_ABI STREQUAL "armeabi-v7a")
-#        set(ANDROID_EXTRA_LIBS
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libcrypto.so
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libssl.so)
-#    endif()
-#endif()
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
+find_package(OpenCV REQUIRED)
+find_package(X11 REQUIRED)
+
+message( STATUS "X11_FOUND = ${X11_FOUND}" )
+message( STATUS "X11_INCLUDE_DIR = ${X11_INCLUDE_DIR}" )
+message( STATUS "X11 LIBRARIES = ${X11_LIBRARIES}" )
+
+file( GLOB SOURCES 
+  Displayfuncs/*.cpp
+  Displayfuncs/*.h
+  Displayfuncs/*.hpp
+)
+
+file( GLOB LIBRARIES
+    /usr/include/X11/*.h
+    ${OpenCV_INCLUDE_DIRS}
+    ${X11_INCLUDE_DIR}
+)
 
 if(ANDROID)
   add_library(Snippingtool SHARED
@@ -32,6 +39,8 @@ if(ANDROID)
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    ${SOURCES}
+    ${LIBRARIES}
   )
 else()
   add_executable(Snippingtool
@@ -39,7 +48,9 @@ else()
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
-  )
+    ${SOURCES}
+    ${LIBRARIES}
+    )
 endif()
 
-target_link_libraries(Snippingtool PRIVATE Qt5::Widgets)
+target_link_libraries(Snippingtool PRIVATE Qt5::Widgets ${OpenCV_LIBS} ${X11_LIBRARIES})

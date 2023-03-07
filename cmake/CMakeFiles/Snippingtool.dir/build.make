@@ -125,10 +125,24 @@ CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/opencvfiles.cpp -o CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.s
 
+CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o: CMakeFiles/Snippingtool.dir/flags.make
+CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o: ../Displayfuncs/qtfuncs.cpp
+CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o: CMakeFiles/Snippingtool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o -MF CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o.d -o CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp
+
+CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp > CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.i
+
+CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp -o CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.s
+
 CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o: CMakeFiles/Snippingtool.dir/flags.make
 CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o: ../Displayfuncs/wayland.cpp
 CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o: CMakeFiles/Snippingtool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o -MF CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o.d -o CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/wayland.cpp
 
 CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.s: cmake_force
 CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o: CMakeFiles/Snippingtool.dir/flags.make
 CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o: ../Displayfuncs/xlibrary.cpp
 CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o: CMakeFiles/Snippingtool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o -MF CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o.d -o CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.cpp
 
 CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.i: cmake_force
@@ -159,6 +173,7 @@ Snippingtool_OBJECTS = \
 "CMakeFiles/Snippingtool.dir/main.cpp.o" \
 "CMakeFiles/Snippingtool.dir/mainwindow.cpp.o" \
 "CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o" \
+"CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o" \
 "CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o" \
 "CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o"
 
@@ -169,6 +184,7 @@ Snippingtool: CMakeFiles/Snippingtool.dir/Snippingtool_autogen/mocs_compilation.
 Snippingtool: CMakeFiles/Snippingtool.dir/main.cpp.o
 Snippingtool: CMakeFiles/Snippingtool.dir/mainwindow.cpp.o
 Snippingtool: CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o
+Snippingtool: CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o
 Snippingtool: CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o
 Snippingtool: CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o
 Snippingtool: CMakeFiles/Snippingtool.dir/build.make
@@ -195,7 +211,7 @@ Snippingtool: /usr/local/lib/libopencv_flann.so.4.7.0
 Snippingtool: /usr/local/lib/libopencv_imgproc.so.4.7.0
 Snippingtool: /usr/local/lib/libopencv_core.so.4.7.0
 Snippingtool: CMakeFiles/Snippingtool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Snippingtool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ethan/Repos/Snippingtool/Snippingtool/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Snippingtool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Snippingtool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
