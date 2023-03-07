@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/ethan/Repos/Snippingtool/Snippingtool/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ethan/Repos/Snippingtool/Snippingtool/build -I/home/ethan/Repos/Snippingtool/Snippingtool -I/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/local/include/opencv4 -g -fPIC -std=gnu++17 -o CMakeFiles/Snippingtool.dir/Snippingtool_autogen/mocs_compilation.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/mocs_compilation.cpp",
+  "file": "/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ethan/Repos/Snippingtool/Snippingtool/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ethan/Repos/Snippingtool/Snippingtool/build -I/home/ethan/Repos/Snippingtool/Snippingtool -I/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/local/include/opencv4 -g -fPIC -std=gnu++17 -o CMakeFiles/Snippingtool.dir/main.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/main.cpp",
+  "file": "/home/ethan/Repos/Snippingtool/Snippingtool/main.cpp"
+},
+{
+  "directory": "/home/ethan/Repos/Snippingtool/Snippingtool/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ethan/Repos/Snippingtool/Snippingtool/build -I/home/ethan/Repos/Snippingtool/Snippingtool -I/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/local/include/opencv4 -g -fPIC -std=gnu++17 -o CMakeFiles/Snippingtool.dir/mainwindow.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/mainwindow.cpp",
+  "file": "/home/ethan/Repos/Snippingtool/Snippingtool/mainwindow.cpp"
+},
+{
+  "directory": "/home/ethan/Repos/Snippingtool/Snippingtool/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ethan/Repos/Snippingtool/Snippingtool/build -I/home/ethan/Repos/Snippingtool/Snippingtool -I/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/local/include/opencv4 -g -fPIC -std=gnu++17 -o CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/opencvfiles.cpp",
+  "file": "/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/opencvfiles.cpp"
+},
+{
+  "directory": "/home/ethan/Repos/Snippingtool/Snippingtool/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ethan/Repos/Snippingtool/Snippingtool/build -I/home/ethan/Repos/Snippingtool/Snippingtool -I/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/local/include/opencv4 -g -fPIC -std=gnu++17 -o CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp",
+  "file": "/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp"
+},
+{
+  "directory": "/home/ethan/Repos/Snippingtool/Snippingtool/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ethan/Repos/Snippingtool/Snippingtool/build -I/home/ethan/Repos/Snippingtool/Snippingtool -I/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/local/include/opencv4 -g -fPIC -std=gnu++17 -o CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/wayland.cpp",
+  "file": "/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/wayland.cpp"
+},
+{
+  "directory": "/home/ethan/Repos/Snippingtool/Snippingtool/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ethan/Repos/Snippingtool/Snippingtool/build -I/home/ethan/Repos/Snippingtool/Snippingtool -I/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/local/include/opencv4 -g -fPIC -std=gnu++17 -o CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o -c /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.cpp",
+  "file": "/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.cpp"
+}
+]

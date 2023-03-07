@@ -1,0 +1,501 @@
+{
+	"BUILD_DIR" : "/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ethan/Repos/Snippingtool/Snippingtool/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ethan/Repos/Snippingtool/Snippingtool/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ethan/Repos/Snippingtool/Snippingtool",
+	"CMAKE_EXECUTABLE" : "/usr/local/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/ethan/Repos/Snippingtool/Snippingtool/CMakeLists.txt",
+		"/home/ethan/Repos/Snippingtool/Snippingtool/build/CMakeFiles/3.21.4/CMakeSystem.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/ethan/Repos/Snippingtool/Snippingtool/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CMakeGenericSystem.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/Platform/Linux.cmake",
+		"/usr/local/share/cmake-3.21/Modules/Platform/UnixPaths.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CMakeCXXInformation.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake",
+		"/usr/local/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake",
+		"/usr/local/share/cmake-3.21/Modules/Compiler/GNU.cmake",
+		"/usr/local/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/usr/local/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/usr/local/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVModules.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindX11.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindFreetype.cmake",
+		"/usr/local/share/cmake-3.21/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindFontconfig.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPkgConfig.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CheckFunctionExists.cmake",
+		"/usr/local/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/ethan/Repos/Snippingtool/Snippingtool",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/opencvfiles.hpp",
+			"MU",
+			"H3HLOAEUEJ/moc_opencvfiles.cpp",
+			null
+		],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/wayland.h",
+			"MU",
+			"H3HLOAEUEJ/moc_wayland.cpp",
+			null
+		],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.h",
+			"MU",
+			"H3HLOAEUEJ/moc_xlibrary.cpp",
+			null
+		],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/CallbackI.h",
+			"MU",
+			"CQIHBDT2KK/moc_CallbackI.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Composite.h",
+			"MU",
+			"CQIHBDT2KK/moc_Composite.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/CompositeP.h",
+			"MU",
+			"CQIHBDT2KK/moc_CompositeP.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/ConstrainP.h",
+			"MU",
+			"CQIHBDT2KK/moc_ConstrainP.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Constraint.h",
+			"MU",
+			"CQIHBDT2KK/moc_Constraint.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/ConvertI.h",
+			"MU",
+			"CQIHBDT2KK/moc_ConvertI.cpp",
+			null
+		],
+		[ "/usr/include/X11/Core.h", "MU", "CQIHBDT2KK/moc_Core.cpp", null ],
+		[ "/usr/include/X11/CoreP.h", "MU", "CQIHBDT2KK/moc_CoreP.cpp", null ],
+		[
+			"/usr/include/X11/CreateI.h",
+			"MU",
+			"CQIHBDT2KK/moc_CreateI.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/DECkeysym.h",
+			"MU",
+			"CQIHBDT2KK/moc_DECkeysym.cpp",
+			null
+		],
+		[ "/usr/include/X11/EventI.h", "MU", "CQIHBDT2KK/moc_EventI.cpp", null ],
+		[
+			"/usr/include/X11/HPkeysym.h",
+			"MU",
+			"CQIHBDT2KK/moc_HPkeysym.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/HookObjI.h",
+			"MU",
+			"CQIHBDT2KK/moc_HookObjI.cpp",
+			null
+		],
+		[ "/usr/include/X11/ImUtil.h", "MU", "CQIHBDT2KK/moc_ImUtil.cpp", null ],
+		[
+			"/usr/include/X11/InitialI.h",
+			"MU",
+			"CQIHBDT2KK/moc_InitialI.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Intrinsic.h",
+			"MU",
+			"CQIHBDT2KK/moc_Intrinsic.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/IntrinsicI.h",
+			"MU",
+			"CQIHBDT2KK/moc_IntrinsicI.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/IntrinsicP.h",
+			"MU",
+			"CQIHBDT2KK/moc_IntrinsicP.cpp",
+			null
+		],
+		[ "/usr/include/X11/Object.h", "MU", "CQIHBDT2KK/moc_Object.cpp", null ],
+		[
+			"/usr/include/X11/ObjectP.h",
+			"MU",
+			"CQIHBDT2KK/moc_ObjectP.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/PassivGraI.h",
+			"MU",
+			"CQIHBDT2KK/moc_PassivGraI.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/RectObj.h",
+			"MU",
+			"CQIHBDT2KK/moc_RectObj.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/RectObjP.h",
+			"MU",
+			"CQIHBDT2KK/moc_RectObjP.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/ResConfigP.h",
+			"MU",
+			"CQIHBDT2KK/moc_ResConfigP.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/ResourceI.h",
+			"MU",
+			"CQIHBDT2KK/moc_ResourceI.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/SelectionI.h",
+			"MU",
+			"CQIHBDT2KK/moc_SelectionI.cpp",
+			null
+		],
+		[ "/usr/include/X11/Shell.h", "MU", "CQIHBDT2KK/moc_Shell.cpp", null ],
+		[ "/usr/include/X11/ShellI.h", "MU", "CQIHBDT2KK/moc_ShellI.cpp", null ],
+		[ "/usr/include/X11/ShellP.h", "MU", "CQIHBDT2KK/moc_ShellP.cpp", null ],
+		[
+			"/usr/include/X11/StringDefs.h",
+			"MU",
+			"CQIHBDT2KK/moc_StringDefs.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Sunkeysym.h",
+			"MU",
+			"CQIHBDT2KK/moc_Sunkeysym.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/ThreadsI.h",
+			"MU",
+			"CQIHBDT2KK/moc_ThreadsI.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/TranslateI.h",
+			"MU",
+			"CQIHBDT2KK/moc_TranslateI.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/VarargsI.h",
+			"MU",
+			"CQIHBDT2KK/moc_VarargsI.cpp",
+			null
+		],
+		[ "/usr/include/X11/Vendor.h", "MU", "CQIHBDT2KK/moc_Vendor.cpp", null ],
+		[
+			"/usr/include/X11/VendorP.h",
+			"MU",
+			"CQIHBDT2KK/moc_VendorP.cpp",
+			null
+		],
+		[ "/usr/include/X11/X.h", "MU", "CQIHBDT2KK/moc_X.cpp", null ],
+		[
+			"/usr/include/X11/XF86keysym.h",
+			"MU",
+			"CQIHBDT2KK/moc_XF86keysym.cpp",
+			null
+		],
+		[ "/usr/include/X11/XKBlib.h", "MU", "CQIHBDT2KK/moc_XKBlib.cpp", null ],
+		[
+			"/usr/include/X11/XWDFile.h",
+			"MU",
+			"CQIHBDT2KK/moc_XWDFile.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Xalloca.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xalloca.cpp",
+			null
+		],
+		[ "/usr/include/X11/Xarch.h", "MU", "CQIHBDT2KK/moc_Xarch.cpp", null ],
+		[ "/usr/include/X11/Xatom.h", "MU", "CQIHBDT2KK/moc_Xatom.cpp", null ],
+		[ "/usr/include/X11/Xauth.h", "MU", "CQIHBDT2KK/moc_Xauth.cpp", null ],
+		[ "/usr/include/X11/Xcms.h", "MU", "CQIHBDT2KK/moc_Xcms.cpp", null ],
+		[ "/usr/include/X11/Xdefs.h", "MU", "CQIHBDT2KK/moc_Xdefs.cpp", null ],
+		[ "/usr/include/X11/Xdmcp.h", "MU", "CQIHBDT2KK/moc_Xdmcp.cpp", null ],
+		[
+			"/usr/include/X11/Xfuncproto.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xfuncproto.cpp",
+			null
+		],
+		[ "/usr/include/X11/Xfuncs.h", "MU", "CQIHBDT2KK/moc_Xfuncs.cpp", null ],
+		[ "/usr/include/X11/Xlib.h", "MU", "CQIHBDT2KK/moc_Xlib.cpp", null ],
+		[
+			"/usr/include/X11/XlibConf.h",
+			"MU",
+			"CQIHBDT2KK/moc_XlibConf.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Xlibint.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xlibint.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Xlocale.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xlocale.cpp",
+			null
+		],
+		[ "/usr/include/X11/Xmd.h", "MU", "CQIHBDT2KK/moc_Xmd.cpp", null ],
+		[ "/usr/include/X11/Xos.h", "MU", "CQIHBDT2KK/moc_Xos.cpp", null ],
+		[ "/usr/include/X11/Xos_r.h", "MU", "CQIHBDT2KK/moc_Xos_r.cpp", null ],
+		[
+			"/usr/include/X11/Xosdefs.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xosdefs.cpp",
+			null
+		],
+		[ "/usr/include/X11/Xpoll.h", "MU", "CQIHBDT2KK/moc_Xpoll.cpp", null ],
+		[ "/usr/include/X11/Xproto.h", "MU", "CQIHBDT2KK/moc_Xproto.cpp", null ],
+		[
+			"/usr/include/X11/Xprotostr.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xprotostr.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Xregion.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xregion.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Xresource.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xresource.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Xthreads.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xthreads.cpp",
+			null
+		],
+		[ "/usr/include/X11/Xtos.h", "MU", "CQIHBDT2KK/moc_Xtos.cpp", null ],
+		[ "/usr/include/X11/Xutil.h", "MU", "CQIHBDT2KK/moc_Xutil.cpp", null ],
+		[
+			"/usr/include/X11/Xw32defs.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xw32defs.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Xwindows.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xwindows.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/Xwinsock.h",
+			"MU",
+			"CQIHBDT2KK/moc_Xwinsock.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/ap_keysym.h",
+			"MU",
+			"CQIHBDT2KK/moc_ap_keysym.cpp",
+			null
+		],
+		[
+			"/usr/include/X11/cursorfont.h",
+			"MU",
+			"CQIHBDT2KK/moc_cursorfont.cpp",
+			null
+		],
+		[ "/usr/include/X11/keysym.h", "MU", "CQIHBDT2KK/moc_keysym.cpp", null ],
+		[
+			"/usr/include/X11/keysymdef.h",
+			"MU",
+			"CQIHBDT2KK/moc_keysymdef.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/ethan/Repos/Snippingtool/Snippingtool/build",
+		"/home/ethan/Repos/Snippingtool/Snippingtool",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/local/include/opencv4",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/bin/x86_64-linux-gnu-g++-9",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/local/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/ethan/Repos/Snippingtool/Snippingtool/build/CMakeFiles/Snippingtool_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/ethan/Repos/Snippingtool/Snippingtool/build/CMakeFiles/Snippingtool_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/opencvfiles.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/wayland.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.cpp",
+			"MU",
+			null
+		],
+		[ "/home/ethan/Repos/Snippingtool/Snippingtool/main.cpp", "MU", null ],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/mainwindow.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

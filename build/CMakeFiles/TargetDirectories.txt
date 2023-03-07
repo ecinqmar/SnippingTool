@@ -1,0 +1,4 @@
+/home/ethan/Repos/Snippingtool/Snippingtool/build/CMakeFiles/rebuild_cache.dir
+/home/ethan/Repos/Snippingtool/Snippingtool/build/CMakeFiles/edit_cache.dir
+/home/ethan/Repos/Snippingtool/Snippingtool/build/CMakeFiles/Snippingtool.dir
+/home/ethan/Repos/Snippingtool/Snippingtool/build/CMakeFiles/Snippingtool_autogen.dir
