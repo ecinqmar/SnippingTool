@@ -15,8 +15,9 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
     void on_pushButton_clicked();
-    void on_pushButton_pressed();
+    void on_SetNewHotkeyButton_clicked();
 
 private:
     Ui::MainWindow *ui;

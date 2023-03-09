@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cmake",
+			"label": "Build Snippingtool using Cmake",
+			"command": "build",
+			"targets": [
+				"all"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"detail": "CMake template build task"
+		},
+		{
+			"type": "cmake",
+			"label": "CMake: install",
+			"command": "install",
+			"problemMatcher": [],
+			"detail": "CMake template install task",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

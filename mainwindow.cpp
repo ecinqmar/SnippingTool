@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "Displayfuncs/opencvfiles.hpp"
+#include "fileops.hpp"
 #include <string>
 #include <QTextStream>
 #include <QDebug>
@@ -22,12 +23,17 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    TakeX11DisplayScreenshot();
     qDebug() << "Button Clicked";
+    TakeX11DisplayScreenshot();
 }
 
-void MainWindow::on_pushButton_pressed()
+
+void MainWindow::on_SetNewHotkeyButton_clicked()
 {
-    TakeX11DisplayScreenshot();
-    qDebug() << "Button Pressed";
+    qDebug() << "Hotkey Button Clicked";
+
+    //grab the input from the textbox in QT
+
+    //dump the data into the file using saveinput
+    //SaveInput( );
 }
