@@ -9,6 +9,7 @@
  * 
  */
 
+#include <string>
 
 /**
  * @brief Save the input of the text in the dialog box to a text file.
@@ -21,6 +22,6 @@ void SaveInput( char text );
 /**
  * @brief 
  * 
- * @return std::vector<char> return the character that is currently saved to the hotkey.
+ * @return std::string return the character that is currently saved to the hotkey.
  */
-std::vector<char> ReadInput( void );
+std::string ReadCfg( void );

@@ -14,6 +14,7 @@
 #include <iostream>
 #include <fstream>
 #include <QDebug>
+#include <string>
 
 /**
  * @brief Save the input of the text in the dialog box to a text file.
@@ -29,11 +30,6 @@ void SaveInput( char text )
     {
         hkconfigfile << text << std::endl;
     }
-    else 
-    {
-        qDebug() << "Created hotkey config file" << std::endl;
-        CreateFile(text);
-    }
     hkconfigfile.close();
 }
 
@@ -42,27 +38,19 @@ void SaveInput( char text )
  * 
  * @return std::vector<char> return the character that is currently saved to the hotkey.
  */
-std::vector<char> ReadInput( void )
+std::string ReadCfg( void )
 {
+    std::fstream file;
+    std::string  contents;
 
-    std::fstream hkconfigfile;
-    hkconfigfile.open( "hkconfigfile.txt", std::fstream::out );
+    file.open( "hkconfigfile.txt", std::fstream::out );
 
-
-    if( hkconfigfile.is_open() == true )
+    if( file.is_open() == true )
     {
-
+        //if we've opened the file, dump the 
+        file >> contents;
     }  
-}
 
-/**
- * @brief Create a File object
- * 
- */
-static void CreateFile( char text )
-{
-    std::fstream hkconfigfile;
-    hkconfigfile.open("hkconfigfile.txt");
-    
 
+    return contents;
 }
