@@ -1,7 +1,8 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "Displayfuncs/opencvfiles.hpp"
-#include "fileops.hpp"
+#include "Utilityfuncs/fileops.hpp"
+#include "Utilityfuncs/qtfuncs.hpp"
 #include <string>
 #include <QTextStream>
 #include <QDebug>
@@ -32,8 +33,11 @@ void MainWindow::on_SetNewHotkeyButton_clicked()
 {
     qDebug() << "Hotkey Button Clicked";
 
-    //grab the input from the textbox in QT
+    //create popup
+    
+    //grab the input from user.
+    QString Newhotkey = GetCharacterInput();
 
     //dump the data into the file using saveinput
-    //SaveInput( );
+    SaveInput( Newhotkey );
 }

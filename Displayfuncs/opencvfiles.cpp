@@ -37,7 +37,7 @@ void TakeX11DisplayScreenshot()
     {
         Mat img = Mat(Height, Width, Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixeldata[0]); //Mat(Size(Height, Width), Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); 
 
-        namedWindow("WindowTitle", WINDOW_AUTOSIZE);
+        //namedWindow("WindowTitle", WINDOW_AUTOSIZE);
         imshow("Display window", img);
 
         waitKey(0);

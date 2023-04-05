@@ -25,6 +25,9 @@ file( GLOB SOURCES
   Displayfuncs/*.cpp
   Displayfuncs/*.h
   Displayfuncs/*.hpp
+  Utilityfuncs/*.cpp
+  Utilityfuncs/*.h
+  Utilityfuncs/*.hpp
 )
 
 file( GLOB LIBRARIES

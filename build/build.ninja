@@ -104,14 +104,6 @@ build CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles/Snippingtool.dir
   OBJECT_FILE_DIR = CMakeFiles/Snippingtool.dir/Displayfuncs
 
-build CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o: CXX_COMPILER__Snippingtool_Debug /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp || cmake_object_order_depends_target_Snippingtool
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++17
-  INCLUDES = -I/home/ethan/Repos/Snippingtool/Snippingtool/build -I/home/ethan/Repos/Snippingtool/Snippingtool -I/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/local/include/opencv4
-  OBJECT_DIR = CMakeFiles/Snippingtool.dir
-  OBJECT_FILE_DIR = CMakeFiles/Snippingtool.dir/Displayfuncs
-
 build CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o: CXX_COMPILER__Snippingtool_Debug /home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/wayland.cpp || cmake_object_order_depends_target_Snippingtool
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o.d
@@ -136,6 +128,14 @@ build CMakeFiles/Snippingtool.dir/Utilityfuncs/fileops.cpp.o: CXX_COMPILER__Snip
   OBJECT_DIR = CMakeFiles/Snippingtool.dir
   OBJECT_FILE_DIR = CMakeFiles/Snippingtool.dir/Utilityfuncs
 
+build CMakeFiles/Snippingtool.dir/Utilityfuncs/qtfuncs.cpp.o: CXX_COMPILER__Snippingtool_Debug /home/ethan/Repos/Snippingtool/Snippingtool/Utilityfuncs/qtfuncs.cpp || cmake_object_order_depends_target_Snippingtool
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Snippingtool.dir/Utilityfuncs/qtfuncs.cpp.o.d
+  FLAGS = -g -fPIC -std=gnu++17
+  INCLUDES = -I/home/ethan/Repos/Snippingtool/Snippingtool/build -I/home/ethan/Repos/Snippingtool/Snippingtool -I/home/ethan/Repos/Snippingtool/Snippingtool/build/Snippingtool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/local/include/opencv4
+  OBJECT_DIR = CMakeFiles/Snippingtool.dir
+  OBJECT_FILE_DIR = CMakeFiles/Snippingtool.dir/Utilityfuncs
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Snippingtool
@@ -144,7 +144,7 @@ build CMakeFiles/Snippingtool.dir/Utilityfuncs/fileops.cpp.o: CXX_COMPILER__Snip
 #############################################
 # Link the executable Snippingtool
 
-build Snippingtool: CXX_EXECUTABLE_LINKER__Snippingtool_Debug CMakeFiles/Snippingtool.dir/Snippingtool_autogen/mocs_compilation.cpp.o CMakeFiles/Snippingtool.dir/main.cpp.o CMakeFiles/Snippingtool.dir/mainwindow.cpp.o CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o CMakeFiles/Snippingtool.dir/Displayfuncs/qtfuncs.cpp.o CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o CMakeFiles/Snippingtool.dir/Utilityfuncs/fileops.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8 /usr/local/lib/libopencv_gapi.so.4.7.0 /usr/local/lib/libopencv_highgui.so.4.7.0 /usr/local/lib/libopencv_ml.so.4.7.0 /usr/local/lib/libopencv_objdetect.so.4.7.0 /usr/local/lib/libopencv_photo.so.4.7.0 /usr/local/lib/libopencv_stitching.so.4.7.0 /usr/local/lib/libopencv_video.so.4.7.0 /usr/local/lib/libopencv_videoio.so.4.7.0 /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8 /usr/local/lib/libopencv_imgcodecs.so.4.7.0 /usr/local/lib/libopencv_dnn.so.4.7.0 /usr/local/lib/libopencv_calib3d.so.4.7.0 /usr/local/lib/libopencv_features2d.so.4.7.0 /usr/local/lib/libopencv_flann.so.4.7.0 /usr/local/lib/libopencv_imgproc.so.4.7.0 /usr/local/lib/libopencv_core.so.4.7.0 || Snippingtool_autogen
+build Snippingtool: CXX_EXECUTABLE_LINKER__Snippingtool_Debug CMakeFiles/Snippingtool.dir/Snippingtool_autogen/mocs_compilation.cpp.o CMakeFiles/Snippingtool.dir/main.cpp.o CMakeFiles/Snippingtool.dir/mainwindow.cpp.o CMakeFiles/Snippingtool.dir/Displayfuncs/opencvfiles.cpp.o CMakeFiles/Snippingtool.dir/Displayfuncs/wayland.cpp.o CMakeFiles/Snippingtool.dir/Displayfuncs/xlibrary.cpp.o CMakeFiles/Snippingtool.dir/Utilityfuncs/fileops.cpp.o CMakeFiles/Snippingtool.dir/Utilityfuncs/qtfuncs.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8 /usr/local/lib/libopencv_gapi.so.4.7.0 /usr/local/lib/libopencv_highgui.so.4.7.0 /usr/local/lib/libopencv_ml.so.4.7.0 /usr/local/lib/libopencv_objdetect.so.4.7.0 /usr/local/lib/libopencv_photo.so.4.7.0 /usr/local/lib/libopencv_stitching.so.4.7.0 /usr/local/lib/libopencv_video.so.4.7.0 /usr/local/lib/libopencv_videoio.so.4.7.0 /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8 /usr/local/lib/libopencv_imgcodecs.so.4.7.0 /usr/local/lib/libopencv_dnn.so.4.7.0 /usr/local/lib/libopencv_calib3d.so.4.7.0 /usr/local/lib/libopencv_features2d.so.4.7.0 /usr/local/lib/libopencv_flann.so.4.7.0 /usr/local/lib/libopencv_imgproc.so.4.7.0 /usr/local/lib/libopencv_core.so.4.7.0 || Snippingtool_autogen
   FLAGS = -g
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8  /usr/local/lib/libopencv_gapi.so.4.7.0  /usr/local/lib/libopencv_highgui.so.4.7.0  /usr/local/lib/libopencv_ml.so.4.7.0  /usr/local/lib/libopencv_objdetect.so.4.7.0  /usr/local/lib/libopencv_photo.so.4.7.0  /usr/local/lib/libopencv_stitching.so.4.7.0  /usr/local/lib/libopencv_video.so.4.7.0  /usr/local/lib/libopencv_videoio.so.4.7.0  /usr/lib/x86_64-linux-gnu/libSM.so  /usr/lib/x86_64-linux-gnu/libICE.so  /usr/lib/x86_64-linux-gnu/libX11.so  /usr/lib/x86_64-linux-gnu/libXext.so  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8  /usr/local/lib/libopencv_imgcodecs.so.4.7.0  /usr/local/lib/libopencv_dnn.so.4.7.0  /usr/local/lib/libopencv_calib3d.so.4.7.0  /usr/local/lib/libopencv_features2d.so.4.7.0  /usr/local/lib/libopencv_flann.so.4.7.0  /usr/local/lib/libopencv_imgproc.so.4.7.0  /usr/local/lib/libopencv_core.so.4.7.0
   OBJECT_DIR = CMakeFiles/Snippingtool.dir

@@ -110,6 +110,18 @@
 			null
 		],
 		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Utilityfuncs/fileops.hpp",
+			"MU",
+			"XVM74WQY3O/moc_fileops.cpp",
+			null
+		],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Utilityfuncs/qtfuncs.hpp",
+			"MU",
+			"XVM74WQY3O/moc_qtfuncs.cpp",
+			null
+		],
+		[
 			"/home/ethan/Repos/Snippingtool/Snippingtool/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -472,17 +484,22 @@
 			null
 		],
 		[
-			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/qtfuncs.cpp",
-			"MU",
-			null
-		],
-		[
 			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/wayland.cpp",
 			"MU",
 			null
 		],
 		[
 			"/home/ethan/Repos/Snippingtool/Snippingtool/Displayfuncs/xlibrary.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Utilityfuncs/fileops.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/ethan/Repos/Snippingtool/Snippingtool/Utilityfuncs/qtfuncs.cpp",
 			"MU",
 			null
 		],
